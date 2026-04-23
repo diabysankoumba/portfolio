@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Administrateur Réseau</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Portfolio</h3>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#a-propos" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#competences" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#veille" class="nav-link">Veille informatique</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Bonjour, je suis <span class="highlight"> Diaby Sankoumba étudiant en BTS SIO SISR au Lycée Suzanne Valadon</span>
+                </h1>
+                <p class="hero-description">
+                    En étude d'administration réseau et gestion de patrimoine informatique
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Je suis un étudiant passionné en BTS SIO option SISR (Services Informatiques aux Organisations - Solutions d'Infrastructure, Systèmes et Réseaux). 
+                        Mon objectif est de devenir un administrateur réseau compétent et polyvalent.
+                    </p>
+                    <p>
+                        Spécialisé dans l'administration de systèmes Linux, la virtualisation avec Proxmox, 
+                        le routage et switching Cisco, ainsi que la gestion de bases de données MariaDB, 
+                        je développe continuellement mes compétences pour garantir des infrastructures robustes et sécurisées.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>BTS SIO</h3>
+                            <p>Formation en cours</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>4+</h3>
+                            <p>Technologies maîtrisées</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2</h3>
+                            <p>Projets réseau</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-card">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Réseau & Infrastructure</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Cisco (IOS)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Proxmox VE</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Virtualisation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Systèmes & Bases de données</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Linux (Debian/Ubuntu)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MariaDB/MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Windows Server</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Sécurité & Outils</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Pare-feu & Sécurité</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Scripting (Bash/Python)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Monitoring</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="reseau">Réseau</button>
+                <button class="filter-btn" data-filter="systeme">Système</button>
+                <button class="filter-btn" data-filter="database">Base de données</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="reseau">
+                    <div class="project-image">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Lab Réseau Cisco BTS SIO</h3>
+                        <p>Configuration complète d'un réseau d'entreprise avec routage inter-VLAN, OSPF et ACLs pour le projet BTS SIO</p>
+                        <div class="project-tech">
+                            <span>Cisco IOS</span>
+                            <span>VLANs</span>
+                            <span>OSPF</span>
+                            <span>ACL</span>
+                        </div>
+                        <div class="project-files">
+                            <h5><i class="fas fa-file-pdf"></i> Documents du projet</h5>
+                            <a href="documents/mission_1.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Mission 1 - Rapport complet
+                            </a>
+                            <a href="documents/mission_1ex.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Mission 1 - Exemples
+                            </a>
+                            <a href="documents/creation_des_vlans.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Création des VLANs
+                            </a>
+                            <a href="documents/configuration_dns_recursif_utilisateurs.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Configuration DNS récursif
+                            </a>
+                            <a href="documents/service_dns_postes_utilisateurs.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Service DNS pour postes utilisateurs
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="systeme">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Infrastructure Virtualisée Proxmox</h3>
+                        <p>Déploiement de VMs Linux et Windows Server avec monitoring et backup automatisé pour l'environnement de formation</p>
+                        <div class="project-tech">
+                            <span>Proxmox VE</span>
+                            <span>Debian</span>
+                            <span>Backup</span>
+                            <span>Monitoring</span>
+                        </div>
+                        <div class="project-files">
+                            <h5><i class="fas fa-file-pdf"></i> Documents du projet</h5>
+                            <a href="documents/mission_2_plan_adressage.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Mission 2 - Plan d'adressage
+                            </a>
+                            <a href="documents/mission_2.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Mission 2 - Rapport complet
+                            </a>
+                            <a href="documents/creation_vm_windows_proxmox.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Création VM Windows avec Proxmox
+                            </a>
+                            <a href="documents/configuration_service_dhcp.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Configuration du service DHCP
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="database">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Serveur MariaDB Haute Disponibilité</h3>
+                        <p>Mise en place d'une base de données avec réplication master-slave et optimisation des performances</p>
+                        <div class="project-tech">
+                            <span>MariaDB</span>
+                            <span>Replication</span>
+                            <span>Backup</span>
+                            <span>Optimization</span>
+                        </div>
+                        <div class="project-files">
+                            <h5><i class="fas fa-file-pdf"></i> Documents du projet</h5>
+                            <a href="documents/mission_3.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Mission 3 - Rapport complet
+                            </a>
+                            <a href="documents/replication_bases_donnees.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Réplication de bases de données
+                            </a>
+                            <a href="documents/haute_disponibilite_dhcp_failover.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Haute disponibilité DHCP (Failover)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="reseau">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sécurisation Réseau Entreprise</h3>
+                        <p>Configuration de pare-feu, VPN site-à-site et politiques de sécurité pour protéger l'infrastructure</p>
+                        <div class="project-tech">
+                            <span>Pare-feu</span>
+                            <span>VPN</span>
+                            <span>Fail2Ban</span>
+                            <span>Surveillance</span>
+                        </div>
+                        <div class="project-files">
+                            <h5><i class="fas fa-file-pdf"></i> Documents du projet</h5>
+                            <a href="documents/configuration_pare_feu_stormshield.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Configuration Pare-feu Stormshield
+                            </a>
+                            <a href="documents/deploiement_wallix_bastion.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Déploiement Wallix Bastion
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="systeme">
+                    <div class="project-image">
+                        <i class="fas fa-linux"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Administration Serveur Linux</h3>
+                        <p>Déploiement et maintenance de serveurs web Apache/Nginx avec automatisation des tâches via scripts Bash</p>
+                        <div class="project-tech">
+                            <span>Debian/Ubuntu</span>
+                            <span>Apache</span>
+                            <span>Nginx</span>
+                            <span>Bash</span>
+                        </div>
+                        <div class="project-files">
+                            <h5><i class="fas fa-file-pdf"></i> Documents du projet</h5>
+                            <a href="documents/supervision_apache_centreon.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Supervision Apache avec Centreon 3.0
+                            </a>
+                            <a href="documents/supervision_zabbix_debian.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Supervision avec Zabbix 7.4
+                            </a>
+                            <a href="documents/installation_serveur_centreon.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Installation du serveur Centreon
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="systeme">
+                    <div class="project-image">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stage Deuxième Année BTS SIO</h3>
+                        <p>Stage professionnel en entreprise avec mise en pratique des compétences réseau et système, gestion d'infrastructures et participation à des projets concrets</p>
+                        <div class="project-tech">
+                            <span>Stage</span>
+                            <span>Entreprise</span>
+                            <span>Infrastructure</span>
+                            <span>Production</span>
+                        </div>
+                        <div class="project-files">
+                            <h5><i class="fas fa-file-pdf"></i> Documents du projet</h5>
+                            <a href="documents/stage_deuxieme_annee.pdf" target="_blank" class="file-link">
+                                <i class="fas fa-download"></i> Rapport de Stage - 2ème année
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Section Veille Informatique -->
+    <section id="veille" class="veille">
+        <div class="container">
+            <h2 class="section-title">Veille Technologique</h2>
+            <div class="veille-content">
+                <div class="veille-categories">
+                    <div class="veille-category">
+                        <h3><i class="fas fa-network-wired"></i> Réseau & Cloud</h3>
+                        <div class="veille-items">
+                            <a href="https://www.wi-fi.org/wi-fi-alliance-launches-wi-fi-7-certification-program" target="_blank" class="veille-item">
+                                <h4>WiFi 7 et 6E Déploiement</h4>
+                                <p>Adoption massive du WiFi 7 dans les entreprises et optimisation des réseaux sans-fil</p>
+                                <span class="veille-date">Mars 2026</span>
+                            </a>
+                            <a href="https://www.cisco.com/c/en/us/products/security/quantum-computing/index.html" target="_blank" class="veille-item">
+                                <h4>Quantum Computing Network</h4>
+                                <p>Préparation des infrastructures réseau pour l'ère du calcul quantique</p>
+                                <span class="veille-date">Février 2026</span>
+                            </a>
+                            <a href="https://www.3gpp.org/5g-advanced" target="_blank" class="veille-item">
+                                <h4>5G-Advanced et 6G</h4>
+                                <p>Nouvelles générations de réseaux mobiles et leurs impacts sur l'infrastructure</p>
+                                <span class="veille-date">Janvier 2026</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="veille-category">
+                        <h3><i class="fas fa-server"></i> Virtualisation & Conteneurs</h3>
+                        <div class="veille-items">
+                            <a href="https://www.proxmox.com/en/news/press-releases/proxmox-ve-9-0-released" target="_blank" class="veille-item">
+                                <h4>Proxmox 9.0 et Virtualisation GPU</h4>
+                                <p>Nouvelles fonctionnalités de virtualisation avec support GPU avancé</p>
+                                <span class="veille-date">Mars 2026</span>
+                            </a>
+                            <a href="https://kubernetes.io/blog/2025/02/10/kubernetes-edge-computing/" target="_blank" class="veille-item">
+                                <h4>Kubernetes Edge Computing</h4>
+                                <p>Déploiement de K8s en périphérie pour les applications temps réel</p>
+                                <span class="veille-date">Février 2026</span>
+                            </a>
+                            <a href="https://wasmbyexample.dev/" target="_blank" class="veille-item">
+                                <h4>WebAssembly (WASM) Runtime</h4>
+                                <p>Nouvelle génération de conteneurs légers et sécurisés</p>
+                                <span class="veille-date">Janvier 2026</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="veille-category">
+                        <h3><i class="fas fa-shield-alt"></i> Cybersécurité</h3>
+                        <div class="veille-items">
+                            <a href="https://www.splunk.com/en_us/blog/ai-powered-security-operations.html" target="_blank" class="veille-item">
+                                <h4>AI-Powered Security Operations</h4>
+                                <p>Automatisation des SOC avec l'intelligence artificielle générative</p>
+                                <span class="veille-date">Mars 2026</span>
+                            </a>
+                            <a href="https://www.nist.gov/news-events/news/2025/08/nist-releases-first-three-quantum-resistant-cryptographic-algorithms" target="_blank" class="veille-item">
+                                <h4>Post-Quantum Cryptography</h4>
+                                <p>Migration vers des algorithmes cryptographiques résistants aux ordinateurs quantiques</p>
+                                <span class="veille-date">Février 2026</span>
+                            </a>
+                            <a href="https://www.crowdstrike.com/blog/zero-trust-architecture-2-0-micro-segmentation/" target="_blank" class="veille-item">
+                                <h4>Zero Trust Architecture 2.0</h4>
+                                <p>Évolution vers des architectures ZTNA avec micro-segmentation avancée</p>
+                                <span class="veille-date">Janvier 2026</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="veille-ressources">
+                    <h3><i class="fas fa-book"></i> Ressources Suivies</h3>
+                    <div class="ressources-list">
+                        <a href="https://blogs.cisco.com/security" target="_blank" class="ressource-item">
+                            <i class="fas fa-rss"></i>
+                            <span>Cisco Security Blog</span>
+                        </a>
+                        <a href="https://forum.proxmox.com" target="_blank" class="ressource-item">
+                            <i class="fas fa-rss"></i>
+                            <span>Proxmox VE Forums</span>
+                        </a>
+                        <a href="https://mariadb.com/resources/blog/" target="_blank" class="ressource-item">
+                            <i class="fas fa-rss"></i>
+                            <span>MariaDB Server Blog</span>
+                        </a>
+                        <a href="https://thehackernews.com" target="_blank" class="ressource-item">
+                            <i class="fas fa-rss"></i>
+                            <span>The Hacker News</span>
+                        </a>
+                        <a href="https://kubernetes.io/blog/" target="_blank" class="ressource-item">
+                            <i class="fas fa-rss"></i>
+                            <span>Kubernetes Blog</span>
+                        </a>
+                        <a href="https://www.linuxfoundation.org/resources/blog/" target="_blank" class="ressource-item">
+                            <i class="fas fa-rss"></i>
+                            <span>Linux Foundation</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="veille-outils">
+                    <h3><i class="fas fa-tools"></i> Outils de Veille</h3>
+                    <div class="outils-grid">
+                        <div class="outil-item">
+                            <div class="outil-icon">
+                                <i class="fab fa-rss"></i>
+                            </div>
+                            <h4>Flux RSS</h4>
+                            <p>Agrégation des flux RSS des sources techniques avec Feedly</p>
+                        </div>
+                        <div class="outil-item">
+                            <div class="outil-icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <h4>Réseaux Sociaux</h4>
+                            <p>Suivi des experts et communautés sur Twitter et LinkedIn</p>
+                        </div>
+                        <div class="outil-item">
+                            <div class="outil-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <h4>GitHub</h4>
+                            <p>Veille sur les projets open-source et nouvelles releases</p>
+                        </div>
+                        <div class="outil-item">
+                            <div class="outil-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <h4>YouTube</h4>
+                            <p>Chaînes techniques et tutoriels sur les nouvelles technologies</p>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Parlons de votre infrastructure</h3>
+                    <p>
+                        Je suis toujours intéressé par de nouveaux défis techniques et opportunités d'apprentissage. 
+                        N'hésitez pas à me contacter pour discuter de vos projets réseau et système.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>diabysankoumba871@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Limoges, France</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    
+                    <!-- Section Upload de Fichiers -->
+                    <div class="file-upload-section">
+                        <h4><i class="fas fa-paperclip"></i> Joindre des fichiers</h4>
+                        <div class="file-drop-zone" id="fileDropZone">
+                            <div class="drop-zone-content">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <p>Glissez-déposez vos fichiers ici ou</p>
+                                <button type="button" class="btn btn-secondary" id="browseFiles">Parcourir</button>
+                                <input type="file" id="fileInput" multiple style="display: none;">
+                            </div>
+                        </div>
+                        <div class="file-list" id="fileList"></div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
